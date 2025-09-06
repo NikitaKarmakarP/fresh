@@ -373,7 +373,7 @@ export function MissionVisionValues() {
                 >
                   <div className="relative">
                     {/* Enhanced decorative background */}
-                    <div className={`absolute inset-0 bg-gradient-to-br ${value.bgColor} rounded-[2rem] transform rotate-2 group-hover:rotate-0 transition-transform duration-700 opacity-60`}></div>
+                    <div className={`absolute inset-0 bg-gradient-to-br ${value.bgColor} rounded-[2rem] transition-transform duration-700 opacity-60`}></div>
                     
                     <div className="relative bg-white/95 backdrop-blur-sm rounded-[2rem] p-10 shadow-2xl border border-gray-100/50 group-hover:shadow-3xl group-hover:border-gray-200/70 transition-all duration-700 text-center">
                       {/* Icon with mission-like animation */}
